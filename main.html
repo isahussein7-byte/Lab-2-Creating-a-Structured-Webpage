@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Classic Guacamole Recipe</title>
+    <meta name="description" content="A simple, classic guacamole recipe with fresh ingredients." />
+    <style>
+      :root { color-scheme: light; }
+      body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.6; }
+      header, main, footer { max-width: 900px; margin: 0 auto; padding: 1rem; }
+      header { padding-top: 2rem; }
+      .card { background: #ffffff; border: 1px solid #e6e6e6; border-radius: 14px; padding: 1rem; }
+      figure { margin: 0; }
+      img { max-width: 100%; height: auto; border-radius: 12px; border: 1px solid #e6e6e6; }
+      .grid { display: grid; gap: 1rem; }
+      @media (min-width: 800px) {
+        .grid { grid-template-columns: 1.2fr 1fr; align-items: start; }
+      }
+      h1 { margin: 0 0 .25rem 0; }
+      h2 { margin-top: 0; }
+      ul, ol { padding-left: 1.25rem; }
+      .meta { margin: .25rem 0 0 0; color: #444; }
+      .note { color: #444; }
+      footer { padding-bottom: 2rem; }
+      a { color: inherit; }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Classic Guacamole</h1>
+      <p class="meta">
+        Student: </strong> Isa Hussein </strong> CPRG213 </strong> Date: <time datetime="2026-01-27">January 27, 2026</time>
+      </p>
+    </header>
+
+    <main>
+      <article class="card" aria-labelledby="recipe-title">
+        <header>
+          <h2 id="recipe-title">Recipe Overview</h2>
+          <p>
+            This guacamole is fresh, salty, and straightforward: ripe avocados, crisp onion, tomato, jalapeño, and (optional) cilantro.
+            It’s quick to make and works as a dip, taco topping, or side for any Mexican-style meal.
+          </p>
+        </header>
+
+        <section class="grid" aria-labelledby="photo-heading">
+          <section aria-labelledby="photo-heading">
+            <h2 id="photo-heading">Photo</h2>
+            <figure>
+             <img
+            src="images/guacamole.jpg"
+            alt="Bowl of fresh guacamole with avocado, diced tomato, red onion, jalapeño, and a wooden spoon"
+            />
+              <figcaption class="note">
+                Final dish: classic guacamole.
+              </figcaption>
+            </figure>
+          </section>
+
+          <section aria-labelledby="ingredients-heading">
+            <h2 id="ingredients-heading">Ingredients</h2>
+            <ul>
+              <li>3 ripe Hass avocados, halved</li>
+              <li>1/4 cup red or yellow onion, finely diced</li>
+              <li>2 plum tomatoes, seeded and finely diced</li>
+              <li>1 jalapeño, seeded and finely diced</li>
+              <li>1/4 cup cilantro, finely chopped (optional)</li>
+              <li>1/2 teaspoon salt</li>
+              <li>1/8 teaspoon cayenne pepper</li>
+            </ul>
+          </section>
+        </section>
+
+        <section aria-labelledby="instructions-heading">
+          <h2 id="instructions-heading">Instructions</h2>
+          <ol>
+            <li>
+              Remove the pit from the avocado halves. Using a tablespoon, scoop out the avocados into a small mixing bowl,
+              then gently mash with a fork.
+            </li>
+            <li>
+              Add the tomatoes, onion, jalapeños, and cilantro (if using). Mix well.
+            </li>
+            <li>
+              Add the salt and cayenne pepper. Adjust seasoning to taste and serve.
+            </li>
+          </ol>
+        </section>
+
+        <section aria-labelledby="reference-heading">
+          <h2 id="reference-heading">Reference</h2>
+          <p>
+            Recipe source (Foodista): <cite>Classic Guacamole</cite>.
+            <a href="https://www.foodista.com/recipe/VXDN5S6T/classic-guacamole">https://www.foodista.com/recipe/VXDN5S6T/classic-guacamole</a>
+          </p>
+          <p class="note">
+          </p>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <p class="meta">© <time datetime="2026">2026</time> • Classic Guacamole recipe page assignment</p>
+    </footer>
+  </body>
+</html>
